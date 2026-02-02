@@ -24,6 +24,25 @@ B.S. in Computer Science
 
 ---
 
+### Projects
+
+**[T4Music](https://github.com/bmbo123/t4music)**  
+Full-stack music streaming platform.
+
+**[Jupyter Copilot](https://github.com/baolong281/jupyter-copilot)**  
+JupyterLab extension for code suggestions and productivity.
+
+**[CommuteTimeTeller](https://github.com/bmbo123/commutetimeteller)**  
+Automated commute-time notification service.
+
+---
+
+### Problem Solving
+
+## **[LeetCode Profile](https://leetcode.com/u/alangregory/)**
+
+---
+
 ### Technical Interests
 
 - Distributed systems

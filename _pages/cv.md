@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <a href="/files/AlanGregory2027.pdf" target="_blank" class="btn btn--primary">
-  Open Resume (PDF)
+  RESUME
 </a>
 
 <iframe
