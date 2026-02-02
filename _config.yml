@@ -1,27 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file controls site-wide settings.
-# Changes here require a rebuild on GitHub Pages.
-
-# =====================
-# Basic Site Settings
-# =====================
 locale: "en-US"
-site_theme: "default" # options: default, air, sunrise, mint, dirt, contrast
+site_theme: "default"
 
-title: "Alan's Portfolio"
+title: "Alan Gregory"
 title_separator: "-"
-name: &name "Alan Gregory"
-description: &description "Computer Science portfolio"
+name: "Alan Gregory"
+description: "Computer Science student at the University of Houston"
 
-# GitHub Pages URL
 url: "https://bmbo123.github.io"
-baseurl: "" # leave empty for username.github.io
+baseurl: ""
 repository: "bmbo123/bmbo123.github.io"
 
-# =====================
-# Author / Sidebar Info
-# =====================
 author:
   avatar: "https://media.licdn.com/dms/image/v2/D5603AQFMGxWNoRUUyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710634852740?e=1771459200&v=beta&t=y-YVEqnsgIuh7G8UlsYUT9gEhM0JNArsn-5SAPQQBfU"
   name: "Alan Gregory"
@@ -29,28 +17,19 @@ author:
   location: "Houston, TX"
   employer: "University of Houston"
   email: "placeholder@gmail.com"
-
-  # Development links
   github: "bmbo123"
-  linkedin: # optional
+  linkedin: "thealangregory"
 
-# =====================
-# Site Behavior
-# =====================
 breadcrumbs: false
 words_per_minute: 160
 future: true
 read_more: "disabled"
 
-# =====================
-# Analytics (disabled)
-# =====================
 analytics:
-  provider: "false"
+  provider: "google-analytics-4"
+  google:
+    tracking_id: "G-SYHWY70ELD"
 
-# =====================
-# Files to Include / Exclude
-# =====================
 include:
   - _pages
   - files
@@ -61,13 +40,11 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-  - README
   - Dockerfile
+  - docker-compose.yml
   - package.json*
+  - README
 
-# =====================
-# Markdown / Rendering
-# =====================
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
@@ -77,20 +54,12 @@ kramdown:
   auto_ids: true
   toc_levels: 1..6
 
-# =====================
-# Collections
-# Only Portfolio is kept
-# =====================
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
 
-# =====================
-# Defaults
-# =====================
 defaults:
-  # Pages (CV, Portfolio index, etc.)
   - scope:
       path: ""
       type: pages
@@ -98,7 +67,6 @@ defaults:
       layout: single
       author_profile: true
 
-  # Portfolio items
   - scope:
       path: ""
       type: portfolio
@@ -108,15 +76,9 @@ defaults:
       share: false
       comments: false
 
-# =====================
-# Permalinks & Timezone
-# =====================
 permalink: /:title/
 timezone: Etc/UTC
 
-# =====================
-# Plugins (GitHub Pages safe)
-# =====================
 plugins:
   - jekyll-feed
   - jekyll-sitemap
