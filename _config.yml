@@ -23,7 +23,7 @@ repository: "bmbo123/bmbo123.github.io"
 # Author / Sidebar Info
 # =====================
 author:
-  avatar: "profile.png" # must exist in /images
+  avatar: "https://media.licdn.com/dms/image/v2/D5603AQFMGxWNoRUUyg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710634852740?e=1771459200&v=beta&t=y-YVEqnsgIuh7G8UlsYUT9gEhM0JNArsn-5SAPQQBfU"
   name: "Alan Gregory"
   bio: "Computer Science @ University of Houston"
   location: "Houston, TX"
