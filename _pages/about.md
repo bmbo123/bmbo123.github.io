@@ -1,23 +1,26 @@
 ---
-permalink: /
-title: "Alan Gregory"
+layout: single
+title: "About"
+permalink: /about/
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 I’m Alan Gregory from Houston, TX. I’m studying Computer Science at the University of Houston. My background so far includes coursework, projects, and internships focused on programming, algorithms, and systems-related topics, with an emphasis on building practical experience and improving technical fundamentals.
 
 ---
 
-### Current Focus
+### Education
 
-- Algorithms and data structures
-- Backend development
-- Distributed systems (introductory)
-- Web development
-- High-performance computing concepts
+**University of Houston**  
+B.S. in Computer Science  
+[Department of Computer Science](https://www.cs.uh.edu)
+
+### Current Coursework (Spring 2026)
+
+- Software Design
+- Interactive Computer Science
+- Introduction to Climate Change
+- Introduction to Meteorology
 
 ---
 
